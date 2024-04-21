@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "caera"
+version = "0.1.0"
+description = ""
+authors = ["externref"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+disnake = "^2.9.1"
+disnake-jishaku = "^2.6.5"
+attrs = "^23.2.0"
+python-dotenv = "^1.0.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.0"
+isort = "^5.13.2"
+ruff = "^0.4.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
