@@ -9,7 +9,7 @@ A Discord bot built as a collaborative project from [our server](https://discord
 # setup
 
 Python version newer than 3.8 and older than 3.11 must be installed. 
-`poetry` is used as the depdendency manager. 
+`poetry` is used as the dependency manager. 
 
 ## steps for setup
 
