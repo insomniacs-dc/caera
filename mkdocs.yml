@@ -1,0 +1,38 @@
+site_name: caera
+repo_url: https://github.com/insomniacs-dc/caera
+site_author: externref
+copyright: Copyright externref ( 2024 - present )
+site_url: https://caera.externref.tech
+
+nav:
+  - Home: index.md
+  - Commands:
+    - Miscellaneous: commands/misc.md
+
+theme:
+  name: "material"
+  logo: assets/icon.png
+  favicon: assets/icon.png
+
+  font:
+    text: Ubuntu
+
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.top
+    - content.code.annotate
+
+  palette:
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Dark Mode
+    - scheme: light
+      toggle:
+        icon: material/weather-sunny
+        name: Light Mode
+    
+
+
